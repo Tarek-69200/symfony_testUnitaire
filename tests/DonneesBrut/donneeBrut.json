@@ -1,0 +1,42 @@
+{
+    "status200": {
+        "expectedStatusCode": 200
+    },
+    "tagForm": {
+        "expectedTagCount": 1,
+        "tagSelector": "form"
+    },
+    "formInputName": {
+        "expectedTagCount": 1,
+        "tagSelector": "input[name=\"contact[name]\"]"
+    },
+    "formInputEmail": {
+        "expectedTagCount": 1,
+        "tagSelector": "input[name=\"contact[email]\"]"
+    },
+    "formInputPassword": {
+        "expectedTagCount": 1,
+        "tagSelector": "input[name=\"contact[password]\"]"
+    },
+    "formButtonSubmit": {
+        "expectedTagCount": 1,
+        "tagSelector": "button[type=\"submit\"]"
+    },
+    
+    "testStatus404": {
+        "expectedStatusCode": 404
+    },
+    "tagErrorMessage": {
+        "expectedTagCount": 1,
+        "tagSelector": "page-not-found"
+    },
+    "seConnecter": {
+        "login": "julio",
+        "password": "123456"
+    }
+    
+}
+
+
+
+
